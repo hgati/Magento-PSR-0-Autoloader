@@ -23,6 +23,7 @@ class Hackathon_PSR0Autoloader_Model_Observer extends Mage_Core_Model_Observer {
 	protected function getComposerVendorPath(){
 		$node = Mage::getConfig()->getNode(self::CONFIG_PATH_COMPOSER_VENDOR_PATH);
 		$path = str_replace( '{{root_dir}}', Mage::getBaseDir(), $node);
+		$path = realpath($path);
 		return $path;
 	}
 
