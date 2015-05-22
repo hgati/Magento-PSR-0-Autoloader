@@ -1,19 +1,16 @@
 {
-    "name": "hgati/firegento-psr0autoloader",
-    "license": "GPL-3.0",
+    "name": "firegento/psr0autoloader",
+    "licenses": ["MIT", "GPL-3.0"],
     "type": "magento-module",
     "description": "This extension adds a PSR-0 autoloader before the Varien autoloader",
-    "authors":[
-            {
-                "name":"Michael Ryvlin"
-            },
-            {
-                "name":"Damian Luszczymak"
-            }
-        ],
-    "require": {
-        "magento-hackathon/magento-composer-installer": "*"
-    },
+    "authors": [
+        {
+            "name":"Michael Ryvlin"
+        },
+        {
+            "name":"Damian Luszczymak"
+        }
+    ],
     "require-dev": {
         "firegento/mage-ci": "master-dev",
         "phpunit/phpunit": "~4.4"
