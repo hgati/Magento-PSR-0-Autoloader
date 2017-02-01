@@ -1,7 +1,0 @@
-.idea/
-vendor/
-test-root/
-
-composer.lock
-
-mage-ci.local.json
